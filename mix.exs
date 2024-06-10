@@ -33,7 +33,8 @@ defmodule BasicScrapper.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.7.12"},
-      {:floki, ">= 0.30.0", only: :test},
+      {:crawly, "~> 0.16.0"},
+      {:floki, "~> 0.36.0"},
       {:esbuild, "~> 0.8", runtime: Mix.env() == :dev},
       {:heroicons,
        tag: "v2.1.1",

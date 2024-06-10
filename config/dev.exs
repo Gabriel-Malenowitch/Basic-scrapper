@@ -12,7 +12,7 @@ config :basic_scrapper, BasicWeb.Endpoint,
     patterns: [
       ~r"priv/static/(?!uploads/).*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/basic_web/(controllers|live|components)/.*(ex|heex)$"
+      ~r"lib/basic_scrapper_web/(controllers|live|components)/.*(ex|heex)$"
     ]
   ]
 

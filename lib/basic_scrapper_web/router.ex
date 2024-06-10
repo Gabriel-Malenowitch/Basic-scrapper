@@ -16,5 +16,6 @@ defmodule BasicWeb.Router do
     pipe_through :api
 
     get "/", ApiController, :hello_world
+    get "/news-list", ApiController, :list_news
   end
 end

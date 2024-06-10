@@ -1,1 +1,1 @@
-# basic-phoenix-project
+# basic-scrapper-phoenix-project
