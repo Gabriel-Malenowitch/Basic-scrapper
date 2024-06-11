@@ -67,11 +67,11 @@ defmodule BasicScrapper.MixProject do
       # test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"],
       # "assets.setup": ["tailwind.install --if-missing", "esbuild.install --if-missing"],
       # "assets.build": ["tailwind auth", "esbuild auth"],
-      # "assets.deploy": [
-      #   "tailwind auth --minify",
-      #   "esbuild auth --minify",
-      #   "phx.digest"
-      # ]
+      "assets.deploy": [
+        # "tailwind auth --minify",
+        # "esbuild auth --minify",
+        "phx.digest"
+      ]
     ]
   end
 end
